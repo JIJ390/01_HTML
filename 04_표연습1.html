@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="KO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    #tb1 thead{border-color: red;}
+    #tb1 thead{background-color: green;}
+    #tb1 {border-collapse: collapse;}
+
+    #tb1 th{        /* 넓이는 넓은거 따라감 */
+      width: 100px;
+      height: 30px;
+    }
+    #tb1 td{
+      width: 10px;
+      height: 100px;
+    }
+  </style>
+
+</head>
+<body>
+  <table border="1" id="tb1">
+    <thead>
+      <tr>
+        <th>레몬</th>
+        <th>레몬</th>
+        <th>소다</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">
+          <h2>감자1</h2>
+        </td>
+        <td>
+          <h2>감자2</h2>
+        </td>
+        <td>
+          <h2>감자3</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>감자1</h2>
+        </td>
+        <td>
+          <h2>감자2</h2>
+        </td>
+        <!-- <td>
+          <h2>감자3</h2>
+        </td> -->
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>김치</td>
+        <td>김치</td>
+        <td>김치</td>
+      </tr>
+    </tfoot>
+
+  </table>
+</body>
+</html>

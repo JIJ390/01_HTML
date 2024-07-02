@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    #form1 {background-color: aqua;}
+    #field1 {background-color: aquamarine;}
+    #div1 {border: 1px black solid;
+           width: 600px;
+           height: 100px;
+           display: flex;}
+
+    .green{background-color: green;}
+    .box{width: 80%;
+         height: 50px;}
+  </style>
+</head>
+<body>
+  
+  <form action="result.html" method="GET" id="form1">
+    <fieldset id="field1">
+      <legend>가위, 바위, 보</legend>
+      <select name="srp">
+        <option value="s">가위</option>
+        <option value="r">바위</option>
+        <option value="p">보위</option>
+      </select>
+      <br><br>
+      <button type="submit">제출하기</button>
+    </fieldset>
+  </form>
+
+  <hr>
+
+  <div id="div1">
+    <a href="http://www.naver.com">
+      <img src="images/flowers/flower1.jpg" width="99.9999%" height="100px">
+    </a>
+    <a href="http://www.naver.com">
+      <img src="images/flowers/flower2.jpg" width="99.9999%" height="100px">
+    </a>
+    <a href="http://www.naver.com">
+      <img src="images/flowers/flower3.jpg" width="99.9999%" height="100px">
+    </a>
+    <a href="http://www.naver.com">
+      <img src="images/flowers/flower4.jpg" width="99.9999%" height="100px">
+    </a>
+  </div>
+
+  <div id="div1">
+    <img src="images/flowers/flower1.jpg" width="24.9999%" height="100px">
+    <img src="images/flowers/flower2.jpg" width="24.9999%" height="100px">
+    <img src="images/flowers/flower3.jpg" width="24.9999%" height="100px">
+    <img src="images/flowers/flower4.jpg" width="24.9999%" height="100px">
+  </div>
+  
+  <hr>
+
+  <a href="0625연습장.html">연습장</a> <br>
+  <a href="#field1">field1</a>
+
+  <hr>
+
+  <iframe src="0625연습장2.html" frameborder="0"></iframe>
+
+  <hr>
+
+  <div style="border: 1px black solid;" class="green box" >green box</div> <br>
+  <span style="border: 1px black solid;" class="green">green</span>
+
+  <hr>
+
+  <input type="number" min="0" max="1000" step="10" value="500">
+
+  <hr>
+
+  <form action="result.html" method="GET">
+
+    <fieldset>
+      <legend>메뉴판</legend>
+      <ol>
+        <li>
+          라면<input type="radio" name="lunch" value="라면">
+        </li>
+        <li>
+          순대국<input type="radio" name="lunch" value="순대국">
+        </li>
+        <li>
+          김치찌개<input type="radio" name="lunch" value="김치찌개">
+        </li>
+      </ol>
+      <button type="submit">제출하기</button>
+    </fieldset>
+   
+
+  </form>
+
+  <div style="border: 1px black solid;"></div>
+
+
+</body>
+</html>

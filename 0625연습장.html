@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    #tb1 {border-collapse: collapse;}
+    #tb1 td{
+      width: 50px;
+      height: 30px;
+    } 
+
+    #tb2 thead th {background-color: blue;}
+    #tb2 tbody td {background-color: aquamarine;}
+    #tb2 tfoot td {background-color: brown;}
+    #tb2 td, th {
+      width: 50px;
+      height: 30px;
+    } 
+
+    #tb3 {border-collapse: collapse;}
+    #tb3 thead th {background-color: aqua;}
+    #tb3 tbody td {background-color: aquamarine;}
+    #tb3 tfoot td {background-color: brown;}
+    #tb3 td, th {
+      width: 50px;
+      height: 30px;
+    } 
+
+  </style>
+</head>
+<body>
+
+  <div style="border: 1px solid black;
+             ">
+
+    <img src="images/flowers/flower1.jpg" width="24%" height="100%">
+    <img src="images/flowers/flower2.jpg" width="24%" height="100%">
+    <img src="images/flowers/flower3.jpg" width="24%" height="100%">
+    <img src="images/flowers/flower4.jpg" width="24%" height="100%">
+
+  </div>
+
+
+  <table border="1" id="tb1">
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <ul>
+    <li>
+      메뉴<hr>
+      <ul>
+        <li>요리1</li>
+        <li>요리2</li>
+        <li>요리3</li>
+      </ul>
+    </li>
+    <li>
+      메뉴<hr>
+      <ul>
+        <li><mark>요리1</mark></li>
+        <li><strong>요리2</strong></li>
+        <li><em>요리3</em></li>
+      </ul>
+    </li>
+    <li>
+      메뉴<hr>
+      <ol type="I">
+        <li>
+          <table border="1" id="tb3">
+            <thead>
+              <tr>
+                <th colspan="4" align="center">2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>   <img src="images/flowers/flower1.jpg" width="100" height="100"></td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </tfoot>
+        
+          </table>
+        </li>
+        <li>
+          <table border="1" id="tb2">
+            <thead>
+              <tr>
+                <th colspan="4">1</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+              </tr>
+            </tfoot>
+        
+          </table>
+        </li>
+      </ol>
+    </li>
+  </ul>
+
+  <hr><hr><hr>
+
+  <table border="1" id="tb2">
+    <thead>
+      <tr>
+        <th colspan="4">1</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+    </tfoot>
+
+  </table>
+
+
+  <ol>
+    <table border="1">
+      <tr>
+        <th colspan="3">Highlight</th>
+      </tr>
+      <tr>
+        <th>aaaa </th>
+        <th>aaaa </th>
+        <th>aaaa </th>
+      </tr>
+
+      <caption>Highlight</caption>
+    </table>
+    
+  </ol>
+
+  
+</body>
+</html>
